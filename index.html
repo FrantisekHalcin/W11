@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript test</title>
+
+    <style>
+        button {
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            padding: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(54, 98, 179);
+            color: white;
+            padding: 20px;
+        }
+
+        p {
+            background-color: rgb(176, 215, 211);
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h2>Funkcia Matematické Operácie</h2>
+    <p>Po kliknutí na jedno z tlačidiel sa v konzole (F12) zobrazia výsledky.</p>
+    <button type="button" onclick="matematickeOperacie()">Vykonať matematické operácie bez parametrov</button>
+    <button type="button" onclick="matematickeOperacie(9,3)">Vykonať matematické operácie s parametrami</button>
+    <script src="./operacie.js"></script>
+</body>
+</html>
